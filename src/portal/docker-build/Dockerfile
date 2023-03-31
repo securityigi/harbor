@@ -22,7 +22,7 @@ COPY LICENSE /build_dir/dist
 RUN cd app-swagger-ui && npm install --unsafe-perm
 RUN cd app-swagger-ui && npm run build
 
-FROM nginx:1.17
+FROM nginx:1.23.3
 
 
 
